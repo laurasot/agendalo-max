@@ -1,0 +1,185 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: blanchedalmond;
+}
+
+/* nav */
+.container-fluid{
+    background-color:rgb(182, 179, 254);
+    font-size: 15.5px;
+}
+
+nav{
+    background-color: #d2cbff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#max {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 202, 79);
+    font-size: 40px;
+}
+
+#nombrePagina {
+    margin-left: 2%;
+    font-size: xx-large;
+}
+
+#agendalo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+} 
+
+label{
+    width: 100px;
+}
+
+.botones{
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.botones:hover{
+    border: none;
+    color: black;
+    background-color:rgba(197, 241, 244, 0.945);
+}
+
+#home{
+    margin-top:2px;
+    font-size: 20px;
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.08rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+}
+
+#home:hover{
+    color: black;
+    background-color:rgba(197, 241, 244, 0.945);
+    border: none;
+}
+/* nav */
+.container{
+    display: flex;
+} 
+
+.form{
+    font-size: 20px;
+    padding: 2%;
+    width: 100%;
+    background-color: blanchedalmond;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-image{
+    border-radius: 20px;
+    width: 50%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(197, 241, 244, 0.945);
+    padding: 1rem ;
+}
+
+.form-image img{
+    width: 20rem;
+}
+
+.mod-sub-title{
+    align-items: center;
+}
+
+.sub-title{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(197, 241, 244, 0.945);
+} 
+
+.input-group{
+    justify-content: space-between;
+    padding: 1.2rem ;
+} 
+
+.input-box input{
+    margin: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-regist{
+    align-items: center;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+.input-register{
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.sub-texto{
+    background-color:rgb(27, 41, 107);
+    border-radius: 5px;
+    width:500px;
+    height: 35px;
+    color: white;
+}
+
+.input-register:hover{
+    border: none;
+    background-color:rgb(177, 165, 253);
+}
+
+.sub-texto{
+    padding: 4px;
+    background-color:rgb(27, 41, 107);
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    color: white;
+}
+
+.link-secondary{
+    padding: 5px;
+}
+
+.link-secondary img{
+    width: 30px;
+    height: 30px;
+}
+
+.input-register :nth-of-type(){
+    text-decoration: none;
+    font-weight: 500;
+    color: aliceblue;
+    align-items: center;
+}
+
+.section-part{
+    height: 20rem;
+    background-color: rgb(27, 27, 27) ;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}

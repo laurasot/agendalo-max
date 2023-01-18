@@ -1,0 +1,151 @@
+body{
+    font-family: 'Nunito', sans-serif; 
+    background-color: blanchedalmond;
+}
+
+/* estilo de nav para login*/
+.container-fluid{
+    background-color:rgb(182, 179, 254);
+    font-size: 15.5px;
+}
+
+nav{
+    background-color: #d2cbff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#max {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 202, 79);
+    font-size: 40px;
+}
+
+#nombrePagina {
+    margin-left: 2%;
+    font-size: xx-large;
+}
+
+#agendalo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+label{
+    width: 200px;
+}
+/*termina estilo de nav para login*/
+
+.botones{
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.botones:hover{
+    border: none;
+    color: black;
+    background-color:rgba(197, 241, 244, 0.945);
+}
+
+#regist{
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+#regist:hover{
+    border: none;
+    color: white;
+    background-color:rgb(189, 179, 254);
+}
+
+/* footer  */
+.sub-texto{
+    padding: 4px;
+    background-color:rgb(27, 41, 107);
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    color: white;
+}
+
+#contenedor{
+    font-family:'Nunito', sans-serif;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+
+.form-image{
+    margin-left: 15%;
+    margin-right: 3%;
+    border-radius: 20px;
+    width: 50%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(197, 241, 244, 0.945);
+    padding: 2rem;
+}
+
+.form-image img {
+    width: 20rem;
+}
+
+#title{ 
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(197, 241, 244, 0.945);
+    width: 80%;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    justify-content: space-between;
+    padding: 4.2rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.input-box input {
+    margin: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.link-secondary{
+    padding: 5px;
+}
+
+.link-secondary img {
+    width: 30px;
+    height: 30px;
+}
+
+.section-part {
+    height: 20rem;
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+}
+
+.d-flex{
+    font-size: 15.5px;
+} 
