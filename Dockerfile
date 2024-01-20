@@ -18,6 +18,4 @@ ARG JAR_FILE=/usr/app/target/*.jar
 COPY --from=build $JAR_FILE /app/runner.jar
 EXPOSE 8080
 
-run -e MYSQL_URL=jdbc:mysql://localhost:3306/proyecto_agenda -e MYSQL_USER=root -e MYSQL_PASSWORD=root -d agendalo-max-docker
-
 ENTRYPOINT java -jar /app/runner.jar
