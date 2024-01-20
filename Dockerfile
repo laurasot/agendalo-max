@@ -7,6 +7,8 @@ WORKDIR $HOME
 ADD . $HOME
 RUN chmod +x mvnw
 RUN --mount=type=cache,target=/root/.m2 ./mvnw -f $HOME/pom.xml clean package
+RUN docker build -t agendalo-max-docker.
+
 
 #
 # Package stage
@@ -15,4 +17,11 @@ FROM eclipse-temurin:17-jre-jammy
 ARG JAR_FILE=/usr/app/target/*.jar
 COPY --from=build $JAR_FILE /app/runner.jar
 EXPOSE 8080
+
+# Configuración de la base de datos
+ENV MYSQL_URL=jdbc:mysql://localhost:3306/proyecto_agenda
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=root
+
+
 ENTRYPOINT java -jar /app/runner.jar
