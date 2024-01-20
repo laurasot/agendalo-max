@@ -1,5 +1,5 @@
 # Usa una imagen base de OpenJDK para Java 11
-FROM adoptopenjdk:17
+FROM eclipse-temurin:17
 VOLUME /tmp
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
