@@ -1,15 +1,17 @@
-# Usa una imagen base de OpenJDK para Java 11
-FROM openjdk:17-jdk-slim
-VOLUME /tmp
-# Establece el directorio de trabajo dentro del contenedor
-WORKDIR /app
+# Build stage
+#
+FROM eclipse-temurin:17-jdk-jammy AS build
+ENV HOME=/usr/app
+RUN mkdir -p $HOME
+WORKDIR $HOME
+ADD . $HOME
+RUN --mount=type=cache,target=/root/.m2 ./mvnw -f $HOME/pom.xml clean package
 
-# Copia el archivo JAR de la aplicación al contenedor (asegúrate de que el nombre del archivo coincida con el de tu aplicación)
-COPY target/ProyectoAgenda-0.0.1-SNAPSHOT.war /app/
-
-
-# Expone el puerto en el que la aplicación se ejecuta (ajusta según el puerto de tu aplicación)
-
-# Comando para ejecutar la aplicación cuando el contenedor se inicia
-ENTRYPOINT  ["java", "-jar", "app.war"]
+#
+# Package stage
+#
+FROM eclipse-temurin:17-jre-jammy 
+ARG JAR_FILE=/usr/app/target/*.jar
+COPY --from=build $JAR_FILE /app/runner.jar
 EXPOSE 8080
+ENTRYPOINT java -jar /app/runner.jar
