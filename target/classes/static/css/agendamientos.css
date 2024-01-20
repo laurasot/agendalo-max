@@ -1,0 +1,136 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(white,#FFEBCD);
+}
+/* nav */
+.container-fluid{
+    background-color:rgb(182, 179, 254);
+    font-size: 15.5px;
+}
+
+nav{
+    background-color: #d2cbff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 25px;
+}
+
+.nav-link {
+    background-color: #f0ebff;
+    width: 150px;
+    height: 50px;
+    margin-top: -15px;
+    font-size: 22px;
+    border: 5px solid rgb(205, 204, 255);
+    border-radius: 7px;
+    color: rgb(59, 48, 255);
+}
+
+#max {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 202, 79);
+    font-size: 40px;
+}
+
+#nombrePagina {
+    margin-left: 2%;
+    font-size: xx-large;
+}
+
+#agendalo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+} 
+
+label{
+    width: 100px;
+}
+
+#usuario-nombre{
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    margin-left: 8%;
+    margin-right: 12%;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.nav-link {
+    background-color: #f0ebff;
+    width: 150px;
+    height: 50px;
+    margin-top: -15px;
+    font-size: 22px;
+    border: 5px solid rgb(205, 204, 255);;
+    border-radius: 7px;
+    color: rgb(59, 48, 255);
+}
+
+.botones{
+    border-style: solid;
+    background-color:rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.botones:hover{
+    border: none;
+    color: black;
+    background-color:rgba(197, 241, 244, 0.945);
+}
+/*termina estilo de nav*/
+
+.sub-texto{
+    padding: 4px;
+    background-color:rgb(27, 41, 107);
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    color: white;
+}
+
+#banner{
+    align-items: center;
+    background-image: linear-gradient(#FFEBCD,white);
+}
+
+#banner img{
+    margin-top: 5%;
+    margin-left: 38%;
+    width: 25%;
+    height: 40%;
+}
+
+.container-agen{
+    background-image: linear-gradient(white,#FFEBCD);
+} 
+
+.table{
+    width: 90%;
+    margin-left: 5%;
+    background-image: linear-gradient(white,rgb(205, 204, 255));
+}
+
+.link-secondary{
+    padding: 5px;
+}
+
+.link-secondary img {
+    width: 30px;
+    height: 30px;
+}
+
+.section-part {
+    height: 20rem;
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+}

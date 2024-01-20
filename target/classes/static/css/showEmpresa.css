@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(white,blanchedalmond);
+}
+
+/* estilo de nav para todos los nav*/
+/* nav */
+.container-fluid {
+    background-color: rgb(182, 179, 254);
+    font-size: 15.5px;
+}
+
+nav { 
+    background-color: #d2cbff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+#max {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 202, 79);
+    font-size: 40px;
+}
+
+#nombrePagina {
+    margin-left: 2%;
+    font-size: xx-large;
+}
+
+#agendalo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+label {
+    width: 100px;
+}
+
+#usuario-nombre {
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    margin-left: 8%;
+    margin-right: 12%;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.nav-link {
+    background-color: #f0ebff;
+    width: 150px;
+    height: 50px;
+    margin-top: -15px;
+    font-size: 22px;
+    border: 5px solid rgb(205, 204, 255);
+    ;
+    border-radius: 7px;
+    color: rgb(59, 48, 255);
+}
+
+.botones {
+    border-style: solid;
+    background-color: rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.botones:hover {
+    border: none;
+    color: black;
+    background-color: rgba(197, 241, 244, 0.945);
+}
+
+#home {
+    margin-top: 2px;
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(22, 49, 113);
+    color: white;
+    padding: 0.08rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+}
+
+#home:hover {
+    color: black;
+    background-color: rgba(197, 241, 244, 0.945);
+    border: none;
+}
+
+/* nav */
+/*termina estilo de nav*/
+.eliminar{
+    color: white;
+    border-style: solid;
+    background-color:rgb(27, 41, 107);
+    /* padding: 0.03rem 1rem; */
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 45px;
+}
+
+.eliminar:hover{
+    background-color:red; 
+    border: 2px solid rgb(196, 0, 0);
+}
+
+#ladoCarrusel {
+    margin-top: 100px;
+}
+
+#ladoCarrusel h1 {
+    font-size: 60px;
+}
+
+/*botones azules*/
+.botones {
+    border-style: solid;
+    background-color: rgb(22, 49, 113);
+    color: white;
+    padding: 0.03rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 45px;
+}
+
+.botones:hover {
+    border: none;
+    color: black;
+    background-color: rgba(197, 241, 244, 0.945);
+}
+/*botones azules*/
+#ladoCarrusel {
+    margin-top: 100px;
+}
+
+#ladoCarrusel h1 {
+    font-size: 60px;
+}
+
+
+#carouselExampleDark {
+    width: 50%;
+}
+
+#ladoCarrusel {
+    width: 50%;
+}
+
+#alLadoServicio {
+    width: 35%;
+    margin: 145px 35px 50px 90px;
+    text-align: justify;
+    color: #6c757d;
+}
+
+#infoPremium {
+    width: 35%;
+    color: #6c757d;
+    height: 180px;
+}
+
+.section-part {
+    height: 20rem;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}
+
+.iconosTic {
+    width: 20px;
+    height: 20px;
+}
+
+#modalPremium {
+    background-color: rgb(29, 34, 38);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+.form-body {
+    background-image:radial-gradient(rgb(182, 179, 254), white) ;
+}
+
+/*no se si funciona esto*/
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.form-holder .form-content {
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #6c757d;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #6c757d;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #6c757d;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.form-content label,
+.was-validated .form-check-input:invalid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    color: #fff;
+}
+
+.form-content input[type=text],
+.form-content input[type=password],
+.form-content input[type=email],
+.form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.form-content textarea {
+    position: static !important;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 14px;
+}
+
+.form-content textarea:hover,
+.form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+.mv-up {
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+
+#divCreaServicio {
+    height: 800px;
+}
+
+#haztePremium {
+    padding-top: 9px !important;
+    width: 280px;
+}
+
+#tablita {
+    height: 300px;
+    background-image: linear-gradient(blanchedalmond,white,blanchedalmond);
+}
+
+#botonPremium {
+    width: 350px;
+    height: 70px;
+}
+
+
+
+#servicisito {
+    height: 830px;
+}
+#textareita{
+    height: 60px;
+}
+
+/*botones tamaño*/
+
+#botonEEmpresa,
+#botonEditaEmpresa {
+    height: 45px;
+    width: 200px;
+}
+
+#botonEditaEmpresa {
+    padding-top: 10px !important;
+}
+
+#verAgenda {
+    padding-top: 10px !important;
+}
+
+#eliminarServicio {
+    padding-top: 9px !important;
+}
+
+/*empieza diseño footer*/
+
+/*iconos de redes sociales hacerlos chikitos*/
+.sub-texto{
+    padding: 4px;
+    background-color:rgb(27, 41, 107);
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    color: white;
+}
+
+.link-secondary {
+    padding: 5px;
+}
+
+.link-secondary img {
+    width: 30px;
+    height: 30px;
+}
+
+.section-part {
+    height: 20rem;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}
